@@ -67,7 +67,7 @@ Check out the [Quick Start](docs/src/quick-start.md) for launching a cluster on 
 - [x] Tested Kubernetes Lifecycle (Scaling, Kubernetes Upgrades), see [E2E-Tests](docs/src/development/testing.md)
 - [x] [ClusterClass Topology](https://cluster-api.sigs.k8s.io/tasks/experimental-features/cluster-class/)
 - [x] Support various Linux Distributions (tested with [Ubuntu and Flatcar](docs/src/topics/images.md))
-- [ ] Release distribution via OCI Images and Helm Charts
+- [x] Release distribution via OCI Images and Manifests
 - [ ] Manage the bootstrapping of networks, security groups and vm instances.
   - [ ] Deploys Kubernetes control planes into private subnets with a separate bastion server.
 - [ ] [SKE](https://stackit.com/de/produkte/runtime/stackit-kubernetes-engine) support
